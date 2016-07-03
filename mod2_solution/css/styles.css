@@ -20,14 +20,12 @@ h1 {
 
 .section {
   background-color: #fff5ee;    
-  border: 3px solid black;    
-  .position: relative;    
-  height: 170px;    
+  border: 3px solid black;      
   margin-right: 15px;    
   margin-left: 15px;
   margin-bottom: 15px; 
-  padding-left: 5px;
-  padding-right: 5px;
+  padding-left: 15px;
+  padding-right: 15px;
   overflow: hidden;
 }
 
@@ -38,8 +36,10 @@ h1 {
 	border-right: 0px;
 	border-top: 0px;
 	margin-top: 0px;	
-	margin-left: 66%;
-	margin-right: -5px;
+	margin-bottom: 10px;
+	width: 120px;
+	float: right;
+	margin-right: -15px;
 }
 
 #chicken{
@@ -54,8 +54,12 @@ h1 {
 	background-color: #ffa07a;
 }
 
-/********** Large devices only **********/
-@media (min-width: 1200px) {
+.description{
+	clear: right;
+}
+
+/********** Desktop view **********/
+@media (min-width: 992px) {
   .col-lg-1, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-lg-10, .col-lg-11, .col-lg-12 {
     float: left;
   }
@@ -97,8 +101,8 @@ h1 {
   }
 }
 
-/********** Medium devices only **********/
-@media (min-width: 992px) and (max-width: 1199px) {
+/********** Tablet view **********/
+@media (min-width: 768px) and (max-width: 991px) {
   .col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-10, .col-md-11, .col-md-12 {
     float: left;
   }
