@@ -116,6 +116,19 @@ body {
   }
 }
 
+#menu-tile, #specials-tile, #map-tile {
+  height: 250px;
+  width: 100%;
+  margin-bottom: 15px;
+  position: relative;
+  border: 2px solid #3F0C1F;
+  overflow: hidden;
+}
+
+#men-tile:hover, #specials-tile:hover, #map-tile:hover {
+  box-shadow: 0 1px 5px 1px #cccccc;
+}
+
 /*** Small devices ***/
 @media (min-width: 768px) and (max-width: 991px) {
   .container .jumbotron {
